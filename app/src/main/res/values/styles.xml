@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="logotext">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="nameSurname">
+
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="enterAmount">
+
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="txtProc">
+        <item name="android:textSize">23sp</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="txtTip">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="txtTotal">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="txtResult">
+        <item name="android:textSize">20dp</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="textTip">
+
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="textTotal">
+
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>

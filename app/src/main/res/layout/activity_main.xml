@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/logotext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logoText"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/logoText"
+        android:src="@mipmap/minotaur">
+
+        </ImageView>
+
+    <EditText
+        android:id="@+id/EditAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:maxLength="9"
+        android:digits="0123456789."
+        android:cursorVisible="false"
+        android:hint="@string/number"
+        style="@style/enterAmount"
+        android:background="@drawable/enter_shape"
+
+        >
+
+    </EditText>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textProc"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0%"
+
+            style="@style/txtProc"
+            >
+
+
+        </TextView>
+        <SeekBar
+            android:id="@+id/SeekBar"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:max="100"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            >
+
+        </SeekBar>
+
+
+    </GridLayout>
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTip"
+        style="@style/txtTip"
+        android:layout_gravity="center" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textTip"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        style="@style/textTip"
+        android:background="@drawable/enter_shape">
+
+    </TextView>
+
+
+
+</GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtTotal"
+            style="@style/txtTotal"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            style="@style/textTotal"
+            android:gravity="center"
+            android:background="@drawable/enter_shape">>
+
+        </TextView>
+
+    </GridLayout>
+
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/enter_shape"
+        style="@style/txtResult"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/txtResult">
+
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/NameSurname"
+        style="@style/nameSurname">
+
+    </TextView>
+
+</LinearLayout>

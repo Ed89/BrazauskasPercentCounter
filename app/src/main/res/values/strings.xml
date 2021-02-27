@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BrazauskasPercentCounter</string>
+    <string name="logoText">Percent Count</string>
+    <string name="NameSurname">Eduardas Brazauskas</string>
+    <string name="number">Enter Amount</string>
+    <string name="txtTip">Tip</string>
+    <string name="txtTotal">Total</string>
+    <string name="txtResult">Result</string>
+</resources>
